@@ -51,3 +51,6 @@
 
 # Ignore files related to VSCode.
 .vscode/*
+
+test
+log
