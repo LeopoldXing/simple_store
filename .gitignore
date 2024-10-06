@@ -1,0 +1,53 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development.
+/storage/*
+!/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+# Ignore node modules
+/node_modules
+/yarn-error.log
+
+# Ignore precompiled assets in development.
+/public/assets
+/public/packs
+/public/packs-test
+
+# Ignore system test screenshots
+/tmp/screenshots/*
+!/tmp/screenshots/.keep
+
+# Ignore pid file
+/tmp/pids/*
+!/tmp/pids/.keep
+
+# Ignore other unnecessary files.
+*.rbc
+*.swp
+.DS_Store
+.idea
+.secret
+.c9/
+*.sublime-workspace
+
+# Ignore other files that should not be committed to a version control system.
+*.rvmrc
+.ruby-version
+.ruby-gemset
+
+# Ignore files related to VSCode.
+.vscode/*
